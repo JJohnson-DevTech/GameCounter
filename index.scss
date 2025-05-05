@@ -1,0 +1,75 @@
+body {
+    background-image: url("assets/GamingSetup.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: 'Great Vibes', cursive;
+    font-weight: bolder;
+    text-align: center;
+    min-height: 100vh;
+    position: relative;
+    z-index: 1;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+h1 {
+    font-size: 40px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    color: #39FF14;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: 	#D700FF;
+}
+
+p {
+    font-size: 25px;;
+    color: #CCFF00;
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: aqua;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    z-index: 10;
+}
+
+button:hover {
+    transform: scale(1.1);
+    background-color: #00FFCC;
+    color: lightcyan;
+    box-shadow: 0 0 20px teal;
+    
+}
+
+#increment-btn {
+    margin: 10px;
+    background: darkblue;
+}
+
+#save-btn {
+    background: darkblue;
+}
+
+#layout {
+    max-width: 600px;
+    margin: 0 auto;
+    width: 100%; 
+}

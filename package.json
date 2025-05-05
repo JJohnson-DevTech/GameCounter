@@ -1,0 +1,25 @@
+{
+  "name": "gamecounter",
+  "version": "1.0.0",
+  "description": "Track your game time!",
+  "keywords": [
+    "[\"game\"",
+    "\"counter\"",
+    "\"tracker\"]"
+  ],
+  "homepage": "https://github.com/JJohnson-DevTech/GameCounter#readme",
+  "bugs": {
+    "url": "https://github.com/JJohnson-DevTech/GameCounter/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JJohnson-DevTech/GameCounter.git"
+  },
+  "license": "ISC",
+  "author": "Juston Johnson",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
